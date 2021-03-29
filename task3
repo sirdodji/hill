@@ -14,5 +14,6 @@ if v > 0:
             division = s - 100
             divisionstr = str(division)
             print("Вамя проехал финиш " + divisionstr + " киллометров назад")
-if v < 0:
-    print("Вася сбежал")
+else:
+    if v < 0:
+        print("Вася сбежал")
