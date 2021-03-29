@@ -1,12 +1,9 @@
 print("Please enter an integer number")
-a = input()
-number = int(a)
-b = str(number)
-c = 1
-next = int(c)
-nextnumber = next + number
-nextnumberbutstr = str(nextnumber)
-previousnumber = number - next
-previousnumberbutstr = str(previousnumber)
-print("The next number for the number " + b + " is " + nextnumberbutstr)
-print("The previous number for the number " + b + " is " + previousnumberbutstr)
+a = int(input())
+nextnumber = a + 1
+previousnumber = a - 1
+number = str(a)
+nextnumberstr = str(nextnumber)
+previousnumberstr = str(previousnumber)
+print("The next number for the number " + number + " is " + nextnumberstr)
+print("The previous number for the number " + number + " is " + previousnumberstr)
